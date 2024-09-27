@@ -1,6 +1,8 @@
 body {
   margin: 70 83;
   background-color: #1b244a;
+  background-size: center;
+  text-align: center;
 }
 
 .container {
@@ -8,7 +10,7 @@ body {
   justify-content: space-around;
 }
 
-.team-text {
+h3 {
   font-family: "Verand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
   font-size: 40px;
@@ -25,6 +27,6 @@ body {
 
 h5 {
   color: red;
-  font-family: Cursed Timer;
+  font-family: "Cursed Timer ULiL", sans-serif;
   font-size: 80px;
 }
