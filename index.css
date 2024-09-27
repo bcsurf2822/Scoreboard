@@ -10,6 +10,10 @@ body {
   justify-content: space-around;
 }
 
+.score-boards {
+  height: 200px;
+}
+
 h3 {
   font-family: "Verand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
@@ -18,15 +22,35 @@ h3 {
   color: white;
 }
 
-.score-border {
-  background-color: #080001;
-  height: 120px;
-  width: 155px;
-  border-radius: 10px;
-}
-
 h5 {
   color: red;
   font-family: "Cursed Timer ULiL", sans-serif;
   font-size: 80px;
+  border: 5px solid #080001;
+  border-radius: 14px;
+  background-color: #080001;
+  height: 120px;
+  width: 155px;
+  margin-top: 21px;
+}
+
+button {
+  height: 45px;
+  width: 45px;
+  border: 4px solid #9aabd8;
+  border-radius: 14px;
+  background-color: #1b244a;
+  color: #9aabd8;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 18px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.home-btn {
+  justify-content: space-around;
+}
+
+.away-btn {
+  justify-content: space-around;
 }
