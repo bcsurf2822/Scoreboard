@@ -15,4 +15,3 @@ The most challenging part of this mini-project was getting the CSS just right to
 ### Features
 
 In addition to replicating the design, I added a new feature that allows the user to reset the score for each team to 0, providing a "New Game" function.
-"""
