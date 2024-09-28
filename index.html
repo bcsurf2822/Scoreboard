@@ -6,25 +6,27 @@
     </style>
   </head>
   <body>
+    <button id="new-game">New Game</button>
     <div class="container">
       <h3 class="team-text">HOME</h3>
 
       <h3 class="team-text">GUEST</h3>
     </div>
     <div class="container score-boards">
-      <h5 class="score">0</h5>
-      <h5 class="score">0</h5>
+      <h5 id="home" class="score">0</h5>
+
+      <h5 id="away" class="score">0</h5>
     </div>
     <div class="container">
       <div class="home-btn">
-        <button class="single">+1</button>
-        <button class="double">+2</button>
-        <button class="triple">+3</button>
+        <button class="single" onclick="singlehm()">+1</button>
+        <button class="double" onclick="doublehm()">+2</button>
+        <button class="triple" onclick="triplehm()">+3</button>
       </div>
       <div class="away-btn">
-        <button class="single">+1</button>
-        <button class="double">+2</button>
-        <button class="triple">+3</button>
+        <button class="single" onclick="singleaw()">+1</button>
+        <button class="double" onclick="doubleaw()">+2</button>
+        <button class="triple" onclick="tripleaw()">+3</button>
       </div>
     </div>
 

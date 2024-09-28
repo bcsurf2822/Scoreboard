@@ -1,6 +1,6 @@
 body {
   margin: 70 83;
-  background-color: #1b244a;
+  background-color: #414c7d;
   background-size: center;
   text-align: center;
 }
@@ -10,16 +10,18 @@ body {
   justify-content: space-around;
 }
 
-.score-boards {
-  height: 200px;
-}
-
 h3 {
   font-family: "Verand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
   font-size: 40px;
   margin-top: 68px;
   color: white;
+}
+
+.score-boards {
+  height: 200px;
+  justify-content: space-around;
+  align-items: center;
 }
 
 h5 {
@@ -32,6 +34,9 @@ h5 {
   height: 120px;
   width: 155px;
   margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
