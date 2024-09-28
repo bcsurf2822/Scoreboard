@@ -5,6 +5,13 @@ body {
   text-align: center;
 }
 
+#new-game {
+  background: green;
+  width: 100px;
+  color: rgb(64, 26, 144);
+  height: 55px;
+}
+
 .container {
   display: flex;
   justify-content: space-around;
