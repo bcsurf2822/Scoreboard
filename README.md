@@ -6,6 +6,8 @@ For this project, I recreated a basketball scoreboard using HTML, JavaScript, an
 
 ### Project Link
 
+View site [here](https://main--lighthearted-churros-a3f4df.netlify.app/)
+
 View the original Figma design [here](<https://www.figma.com/design/5siB3scsIthHlgtad1Kv3F/Basketball-Scoreboard-(Copy)?node-id=0-1&node-type=canvas&t=D7nEFvL9rFirDR0e-0>).
 
 ### Challenges
