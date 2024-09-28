@@ -18,12 +18,11 @@ function singlehm() {
 function doublehm() {
   homeScore += 2
   homeScoreText.innerText =  homeScore
-  console.log("after2", homeScore)
 }
 
 function triplehm() {
   homeScore += 3
-  homeScoreText.innerText +=3
+  homeScoreText.innerText = homeScore
 }
 
 function singleaw() {
