@@ -5,8 +5,10 @@ let homeScore = 0
 let awayScore = 0
 
 function newGame() {
-  homeScoreText.innerText = 0;
-  awayScoreText.innerText = 0;
+  homeScore = 0;
+  awayScore = 0;
+  homeScoreText.innerText = homeScore;
+  awayScoreText.innerText = awayScore;
 }
 
 
